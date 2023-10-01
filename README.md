@@ -20,7 +20,7 @@ Swagger documentation available at - http://localhost:8000/docs
 
 Clone the repository:
 
-   git clone https://github.com/your-username/Book_Giveaway_API.git
+   git clone https://github.com/dmtree3/Book_Giveaway_API.git
 
 Navigate to the project directory:
   cd Book_Giveaway_API
@@ -35,7 +35,7 @@ Install project dependencies:
 
 ### Running the Application
 Use the following command to run the FastAPI application: 
-  uvicorn GiveAwayAPI.main:app --host 0.0.0.0 --port 8000 --reload
+  uvicorn GiveAwayAPI.main:app --reload
 
 ### Deployment
 The project can be deployed using Docker and Docker Compose. To build and run the containers, use:
